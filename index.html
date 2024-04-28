@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Page</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="home-page.png" type="image/x-icon">
+
+    <!---box icons link--->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--- remix icons link --->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!---google fonts link--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@100;200;300;400;600;700&display=swap"rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+    
+    <section class="header">
+        <nav>
+            <a href=""><img src="its-your-day.png"></a>
+             <!-- <h5>Sign in</h5> -->
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://www.facebook.com/mdazad.ali.9026">Facebook</a></li>
+                    <li><a href="https://instagram.com/azadraj77">Instagram</a></li>
+                    <li><a href="https://wa.me/message/FJKKP6NRNU5LA1">Whatsapp</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html" class="link active">Coming-Soon</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Do You Like My Webpage</h1>
+            <p>This Website is Made For Social Media. Do You Like This Website? Please Answer Me YES And NO Right Now</p>
+            
+            <a href="Channel.html"> <i class="ri-thumb-up-line"></i>YES</a>
+            <a href="fedback.html" class="ctaa"><i class="ri-thumb-down-line"></i>NO</a>
+
+
+        </div>
+
+    </section>
+
+    
+    
+    <!----JavaScript For Toggle-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

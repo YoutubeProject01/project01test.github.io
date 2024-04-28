@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Page</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="communicate.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@100;200;300;400;600;700&display=swap"rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href=""><img src="its-your-day.png"></a>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://www.facebook.com/mdazad.ali.9026">Facebook</a></li>
+                    <li><a href="https://instagram.com/azadraj77">Instagram</a></li>
+                    <li><a href="https://wa.me/message/FJKKP6NRNU5LA1">Whatsapp</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html" class="link active">Coming-Soon</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    </section>
+
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3572.331082850709!2d84.44268307451865!3d26.445054780033324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39931b2ef1a33277%3A0x775b6d65c5b020f9!2sAzad%20Mobile%20Repairing%20Center!5e0!3m2!1sen!2sin!4v1709308359254!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                 <i class="fa fa-home"></i>
+                 <span>
+                     <h5>Miralipur</h5>
+                     <p>Barharia - Maharajganj Rd, Gopalganj, Bihar 841428 (India)</p>
+                 </span>
+                </div>
+
+                <div>
+                 <i class="fa fa-phone"></i>
+                 <span>
+                     <h5>+919097122019</h5>
+                     <p>Monday To Saturday, 10AM To 6PM</p>
+                 </span>
+                </div>
+                
+                <div>
+                 <i class="fa fa-envelope-o"></i>
+                 <span>
+                     <h5>azadmobile163@gmail.com</h5>
+                     <p>Email on Your Query</p>
+                 </span>
+                </div>
+           </div>
+
+           <div class="ntact-container">
+             <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Ask For Helps</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="80c8c7c5-8000-4aed-ba87-7726c6a37656">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">Send <img src="arrow_icon.png" alt=""></button>
+            </form>
+           </div>
+        </div>
+
+    </section>
+
+    <section  class="footer">
+
+        <div class="icons">
+            <a href="https://www.facebook.com/mdazad.ali.9026"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.twitter.com/AzadMobile3"><i class="fa fa-twitter"></i></a>
+            <a href="https://wa.me/message/FJKKP6NRNU5LA1"><i class="fa fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/azadraj77"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/azad-ali-178594259"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Copyright © 2024. Created By <i class="fa fa-heart-o"></i> @rAj <i class="fa fa-heart-o"></i> All rights reserved.</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    
+</body>
+</html>
